@@ -1,0 +1,48 @@
+<div class="entry">
+  {{#each bolets}}
+  <article class="item">
+    <h2 class="title nom-comu">{{nomComu.[0]}}</h2>
+    <figure class="foto">
+      <img src="img/320x320/{{imatge}}" title="{{nomCientific}}" />
+      <figcaption>{{nomCientific}}</figcaption>
+    </figure>
+
+    <div class="temporada">
+      <h3>Temporada</h3>
+      {{#if temporada.hivern}}
+      <span class="icon-winter" title="hivern"></span>
+      {{/if}}
+      {{#if temporada.primavera}}
+      <span class="icon-sprint" title="primavera"></span>
+      {{/if}}
+      {{#if temporada.estiu}}
+      <span class="icon-summer" title="estiu"></span>
+      {{/if}}
+      {{#if temporada.tardor}}
+      <span class="icon-autumn" title="tardor"></span>
+      {{/if}}
+    </div>
+
+    <div class="comestibilitat">
+      {{#if comestibilitat.forquilles}}
+        <h3>Comestible</h3>
+        <div title="{{comestibilitat.forquilles}} forquilles">
+        {{#times comestibilitat.forquilles}}
+          <div class="icon-fork"></div>
+        {{/times}}
+        </div>
+      {{else}}
+        <h3>No comestible</h3>
+      {{/if}}
+      {{#if comestibilitat.avisos}}
+        <div class="icon-warning"></div>
+      {{/if}}
+    </div>
+
+    <div class="more-info">
+      <a href="#" class="icon-more">info</a>
+    </div>
+
+  </article>
+  {{/each}}
+</div>

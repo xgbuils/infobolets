@@ -1,0 +1,103 @@
+{
+    "bolets": [{
+        "nomComu": ["Apagallums", "cogomella", "paloma", "maneta"],
+        "nomCientific": "Macrolepiota procera",
+        "descripcio": "Bolet gros de barret de 10 a 30 cm de diàmetre i amb escates fosques. Làmines blanques que amb el temps s'enfosqueixen una mica. Peu llarg dur i fibrós de color bru, s'acostuma a menysprear. Anell doble que es pot moure pel peu. Carn blanca i tova. Olor agradable.",
+        "temporada": {
+            "estiu": true, 
+            "tardor": true
+        },
+        "habitat": "Terrenys silicis, prats, pastures i marques de camins.",
+        "comestibilitat": {
+            "forquilles": 3,
+            "descripcio": "Comestible excel·lent.",
+            "avisos": "No es pot ingerir mai cru, perquè conté toxines."
+        },
+        "imatge": "01-Macrolepiota procera.jpg"
+    }, {
+        "nomComu": ["Arigany"],
+        "nomCientific": "Morchella conica",
+        "descripcio": "Barret de forma cònica, amb alvèols amplis irregulars presenta un color gris brunenc. Peu curt, blanquinós esgrogueït, solcat i buit com el barret. Carn blanquinosa, elàstica i prima. Olor suau.",
+        "temporada": {
+            "estiu": true, 
+            "tardor": true
+        },
+        "habitat": "Boscos de muntanya. Terrenys remenats i cremats",
+        "comestibilitat": {
+            "forquilles": 3,
+            "descripcio": "Comestible excel·lent."
+        },
+        "imatge": "02-Morchella conica.jpg"
+    }, {
+        "nomComu": ["Bola de neu anisada"],
+        "nomCientific": "Agaricus arvensis",
+        "descripcio": "Barret de 6 a 20 cm de diàmetre, hemisfèric de jove i s'aplana al envellir, de color blanc llis al principi i al madurar forma esquames grogoses. Làmines fines, denses, de color blanc al principi i marronoses al final. Peu cilíndric, més gruixut cap a la base, llis i blanc per sobre l'anell doble i esquamós per sota. Carn elàstica i de color blanc. Olor d'anís.",
+        "temporada": {
+            "primavera": true, 
+            "tardor": true
+        },
+        "habitat": "Prats, pastures i margues de camins",
+        "comestibilitat": {
+            "forquilles": 2,
+            "descripio": "Bon comestible"
+        },
+        "imatge": "03-Agaricus arvensis.jpg"
+    }, {
+        "nomComu": ["Cama-sec de bosc", "Carrereta", "Carmanyola", "Candeleta"],
+        "nomCientific": "Marasmius oreades",
+        "descripcio": "Bolet petit de barret de 2 a 6 cm de diàmetre enfosquit a la part central, de color bru groguenc. Làmines amples, separades i clares. Peu cilíndric prim, llarg i d'un color cru blanquinós. Carn molt prima de color crema pàl·lid. Olor agradable.",
+        "temporada": {
+            "primavera": true,
+            "estiu": true, 
+            "tardor": true
+        },
+        "habitat": "Boscos de muntanya",
+        "comestibilitat": {
+            "forquilles": 3,
+            "descripcio": "Comestible excel·lent"
+        },
+        "imatge": "04-Marasmius oreades.jpg"
+    }, {
+        "nomComu": ["Camagroc", "Rossinyolic", "Moixernó de bosc"],
+        "nomCientific": "Cantharellus lutescens",
+        "descripcio": "Bolet petit de barret en forma d'embut irregular i ondulat de 2 a 6 cm de diàmetre, de color bru fosc per sobre i groc per sota. Sense làmines. Peu llarg de 2 a 7 cm cilíndric o aixafat amb formes irregulars, de color groc Carn molt minsa i elàstica. Olor agradable afruitat.",
+        "temporada": {
+            "tardor": true,
+            "hivern": true
+        },
+        "habitat": "Pinedes i coniferes",
+        "comestibilitat": {
+            "forquilles": 3,
+            "descripcio": "Comestible excel·lent"
+        },
+        "imatge": "05-Cantharellus lutescens.jpg"
+    }, {
+        "nomComu": ["Camperol", "Xampinyó", "Robirol", "Xampinyó silvestre"],
+        "nomCientific": "Agaricus campestris",
+        "descripcio": "Barret arrodonit i blanquinós, en alguns casos té escames de color marronós. Làmines de color rosat que s'enfosqueixen al envellir. Peu robust de color blanc amb anell. Carn blanca i consistent. Olor agradable.",
+        "temporada": {
+            "tardor": true,
+            "hivern": true
+        },
+        "habitat": "Bosc tancat, molsa",
+        "comestibilitat": {
+            "forquilles": 3,
+            "descripcio": "Comestible excel·lent"
+        },
+        "imatge": "06-Agaricus campestris.jpg"
+    }, {
+        "nomComu": ["Cama de perdiu", "Bitxac", "Bec de perdiu"],
+        "nomCientific": "Chroogomphus rutilus",
+        "descripcio": "Barret petit i convex de 2 a 10 cm de diàmetre, cutícula viscosa i de color bru morat. Làmines gruixudes i separades. Peu tort, llarg i gruixut per les dimensions del barret. Carn compacta i grogosa, al coure pren un color violaci negrós. Olor inapreciable.",
+        "temporada": {
+            "estiu": true, 
+            "tardor": true
+        },
+        "habitat": "Bosc tancat, molsa",
+        "comestibilitat": {
+            "forquilles": 2,
+            "descripio": "Bon comestible"
+        },
+        "imatge": "07-Chroogomphus rutilus.jpg"
+    }]
+}

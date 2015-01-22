@@ -1,0 +1,113 @@
+@import "../../bower_components/normalize.styl/normalize.styl"
+@import "infobolets_icons.styl"
+
+greenColor = #078248
+brownColor = #75574c
+grayColor  = #474747
+itemWidth  = 300px
+fotoSize   = 144px
+itemMarginWidth = 7px 
+containerWidth  = 3 * itemWidth + 6 * itemMarginWidth
+bodyFontSize    = 16px
+
+a
+	text-decoration: none
+body
+	font-family 'Josefin Sans', sans-serif
+	font-size bodyFontSize
+figure
+	margin 0
+footer
+	margin-top 2em
+	padding 1em
+	text-align center
+	background greenColor
+	color white
+h1
+	display inline-block
+	vertical-align middle
+	font-family: 'Lobster', cursive
+	color greenColor
+	span
+		color white
+h3
+	margin .5em 0 .1em
+	padding .5em 0 .1em
+header
+	background grayColor
+.comestibilitat
+    .icon-fork, .icon-warning
+	    display inline-block
+	    vertical-align middle
+.header
+.container
+	@media screen and (min-width: containerWidth)
+		width containerWidth    
+.container
+	font-size 0
+	margin 2em auto
+	text-align center
+.header
+	margin 0 auto
+	position relative
+	.icon-menu
+		position absolute
+		display block
+		right 0
+		bottom 0
+		font-size 1.5em
+		padding .5em
+		color white
+.logo
+	display inline-block
+	text-align: right
+	vertical-align middle
+.title
+	//background brownColor
+	margin 0.25em 0
+	border-bottom: solid 4px rgba(greenColor, 0.7)
+	padding .25em 0
+	font-size 1.6em
+	font-style normal
+.item
+	position relative
+	display inline-block
+	vertical-align top
+	box-sizing border-box
+	padding .5rem
+	font-size bodyFontSize
+	width 100%
+	text-align left
+	box-shadow 2px 2px 2px 2px #ddd
+	background rgba(greenColor, 0.1)
+	@media screen and (min-width: 320px)
+		margin 10px itemMarginWidth
+		width itemWidth
+	h3
+		font-style normal
+	header
+		position relative
+		min-height fotoSize
+		border solid 1px black
+		overflow hidden
+	.foto
+		float right
+		text-align center
+		width fotoSize
+		img
+			width fotoSize
+			border-radius 5px
+	.names
+		margin-left fotoSize
+.more-info
+	position absolute
+	left 0
+	bottom 0
+	a
+		display block
+		margin .5em
+	a:before
+		margin-right: .3em
+
+			
+	
