@@ -52,17 +52,6 @@ module.exports = function(grunt) {
         src: ['img/320x320/*', 'img/logo/*'],
         dest: 'build/'
       },
-      'github-pages': {
-        expand: true,
-        cwd: 'src',
-        src: 'index.html',
-        dest: '',
-        options: {
-          process: function (content, srcpath) {
-            return content.replace(/src="/g,'src="build/');
-          },
-        }
-      },
       views: {
         expand: true,
         cwd: 'src',
@@ -158,7 +147,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['copy:all', 'stylus', 'uglify']);
   grunt.registerTask('copy:all', [
-    'copy:images', 'copy:views', 'copy:data', 'copy:fonts', 'copy:github-pages'
+    'copy:images', 'copy:views', 'copy:data', 'copy:fonts'
     ])
   grunt.registerTask('server', ['build', 'connect:livereload', 'open:dev', 'watch']); //Ejecutaremos todas las tareas indicadas.
 };
