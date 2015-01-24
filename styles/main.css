@@ -264,12 +264,11 @@ header {
 }
 @media screen and (min-width: 942px) {
   .header,
-  .container {
+  .content {
     width: 942px;
   }
 }
-.container {
-  font-size: 0;
+.content {
   margin: 2em auto;
   text-align: center;
 }
@@ -337,6 +336,11 @@ header {
 .item .names {
   margin-left: 144px;
 }
+.item-info {
+  font-size: 16px;
+  display: none;
+  background: rgba(7,130,72,0.1);
+}
 .more-info {
   position: absolute;
   left: 0;
@@ -348,4 +352,7 @@ header {
 }
 .more-info a:before {
   margin-right: 0.3em;
+}
+.wrapper {
+  font-size: 0;
 }
