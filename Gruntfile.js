@@ -43,13 +43,13 @@ module.exports = function(grunt) {
       main: {
         expand: true,
         cwd: 'src',
-        src: ['img/320x320/*'],
+        src: ['img/288x288/*'],
         dest: 'build/',
       },
       images: {
         expand: true,
         cwd: 'src',
-        src: ['img/320x320/*', 'img/logo/*'],
+        src: ['img/288x288/*', 'img/logo/*'],
         dest: 'build/'
       },
       views: {
@@ -117,7 +117,7 @@ module.exports = function(grunt) {
         tasks: ['copy:views']
       },
       images: {
-        files: ['img/320x320/*', 'img/logo/*'],
+        files: ['img/288x288/*', 'img/logo/*'],
         options: {
           spawn: false,
           livereload: LIVERELOAD_PORT //Puerto donde se enviará el evento
