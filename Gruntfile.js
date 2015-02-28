@@ -67,7 +67,7 @@ module.exports = function(grunt) {
       fonts: {
         expand: true,
         cwd: 'src',
-        src: 'fonts/*',
+        src: 'fonts/**/*',
         dest: 'build/',
       }
     },
@@ -75,12 +75,12 @@ module.exports = function(grunt) {
       build: {
         options: {
           linenos: false,
-          compress: false
+          compress: true
         },
         files: [{
           expand: true,
           cwd: 'src',
-          src: [ 'styles/**/*.styl' ],
+          src: [ 'styles/main.styl' ],
           dest: 'build/',
           ext: '.css'
         }]
